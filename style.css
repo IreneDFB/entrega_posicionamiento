@@ -11,7 +11,7 @@ body {
   padding: 0;
   min-height: 100vh;
   background-color: #000000;
-  color: #9ad79b;
+  color: #9dceff;
   line-height: 1.5;
   padding-top: 70px;
   padding-bottom: 60px;
@@ -22,8 +22,8 @@ header {
   left: 0;
   width: 100%;
   height: 70px;
-  background-color: #123412;
-  color: #9ad79b;
+  background-color: #00067f;
+  color: #94a2e8;
   text-align: center;
   line-height: 70px;
   font-size: 24px;
@@ -35,28 +35,28 @@ footer {
   left: 0;
   width: 100%;
   height: 60px;
-  background-color: #123412;
-  color: #9ad79b;
+  background-color: #00067f;
+  color: #94a2d8;
   text-align: center;
   line-height: 60px;
   font-size: 14px;
   z-index: 1000;
 }
 .content {
-  margin-right: 270px; /* espacio para el sidebar */
+  margin-right: 270px;
   padding: 20px;
 }
 
 .sidebar {
   width: 250px;
   float: right;
-  background-color: #1f3d1f;
+  background-color: #004492;
   padding: 15px;
   margin-top: 10px;
-  color: #9ad79b;
+  color: #6aa8ff;
 }
 button {
-  background-color: #9ad79b;
+  background-color: #4cafff;
   color: #000;
   padding: 10px 20px;
   border: none;
@@ -66,7 +66,7 @@ button {
 }
 
 button:hover {
-  background-color: #7fc77f;
+  background-color: #2518b1;
 }
 .features {
   clear: both;
@@ -80,10 +80,12 @@ button:hover {
 
 .feature {
   background-color: #1a1a1a;
-  color: #9ad79b;
+  color: #809dff;
   padding: 15px;
   margin-bottom: 15px;
-  border-left: 5px solid #9ad79b;
+  border-left: 5px solid #809dff;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .feature span {
